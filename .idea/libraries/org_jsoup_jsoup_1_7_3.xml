@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="org.jsoup:jsoup:1.7.3" type="repository">
+    <properties maven-id="org.jsoup:jsoup:1.7.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.jgit-3.4.1.201406201815-r.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.7.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

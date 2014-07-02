@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.tautua.markdownpapers:markdownpapers-core:1.4.2" type="repository">
+    <properties maven-id="org.tautua.markdownpapers:markdownpapers-core:1.4.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/GitMarkdownAnalyzer/lib/markdownpapers-core-1.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/GitMarkdownAnalyzer/lib/markdownpapers-core-1.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/GitMarkdownAnalyzer/lib/markdownpapers-core-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

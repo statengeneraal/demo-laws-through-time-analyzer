@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GitMarkdownAnalyzer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GitMarkdownAnalyzer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="org.tautua.markdownpapers:markdownpapers-core:1.4.2" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/org.eclipse.jgit-3.3.2.201404171909-r.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/tagsoup-1.2.1.jar" />
+          <element id="library" level="project" name="org.jsoup:jsoup:1.7.3" />
+          <element id="library" level="project" name="net.sf.supercsv:super-csv:2.2.0" />
+          <element id="library" level="project" name="org.tautua.markdownpapers:markdownpapers-core:1.4.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.eclipse.jgit-3.4.1.201406201815-r.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

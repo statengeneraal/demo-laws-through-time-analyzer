@@ -18,7 +18,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -54,9 +54,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -64,35 +63,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Analyze.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Analyze.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Analyze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="37" selection-start="7129" selection-end="7129" vertical-scroll-proportion="0.0" vertical-offset="2137" max-vertical-offset="4794">
+            <state vertical-scroll-proportion="1.2466667" vertical-offset="5389" max-vertical-offset="8126">
+              <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3410#3434#0" expanded="true" />
-                <element signature="e#9590#9628#0" expanded="true" />
+                <element signature="e#18083#18084#0" expanded="true" />
+                <element signature="e#18119#18120#0" expanded="true" />
+                <element signature="e#18155#18156#0" expanded="true" />
+                <element signature="e#18194#18195#0" expanded="true" />
+                <element signature="e#18230#18231#0" expanded="true" />
+                <element signature="e#18269#18270#0" expanded="true" />
+                <element signature="e#18312#18313#0" expanded="true" />
+                <element signature="e#18354#18355#0" expanded="true" />
+                <element signature="e#18403#18404#0" expanded="true" />
+                <element signature="e#18451#18452#0" expanded="true" />
+                <element signature="e#18500#18501#0" expanded="true" />
+                <element signature="e#18548#18549#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="CustomDiffFormatter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/eclipse/jgit/diff/CustomDiffFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="75" selection-start="610" selection-end="610" vertical-scroll-proportion="0.20101352" vertical-offset="0" max-vertical-offset="592">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GitMarkdownAnalyzer.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="17" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
+            <state vertical-scroll-proportion="0.0" vertical-offset="10319" max-vertical-offset="21488">
+              <caret line="607" column="0" selection-start-line="599" selection-start-column="0" selection-end-line="607" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,7 +99,28 @@
       <file leaf-file-name="MyDiffFormatter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="250" column="4" selection-start="9313" selection-end="9313" vertical-scroll-proportion="0.0" vertical-offset="4250" max-vertical-offset="9010">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2839" max-vertical-offset="11458">
+              <caret line="167" column="23" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiffFormatter.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jgit-3.4.1.201406201815-r.jar!/org/eclipse/jgit/diff/DiffFormatter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2686">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RevTree.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jgit-3.4.1.201406201815-r.jar!/org/eclipse/jgit/revwalk/RevTree.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -119,9 +138,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/DiffFormatter.java" />
         <option value="$PROJECT_DIR$/GitMarkdownAnalyzer.iml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/CustomDiffFormatter.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/jgit/diff/CustomDiffFormatter.java" />
         <option value="$PROJECT_DIR$/src/MyDiffFormatter.java" />
         <option value="$PROJECT_DIR$/src/Analyze.java" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -134,9 +155,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
+    <option name="x" value="71" />
     <option name="y" value="-8" />
-    <option name="width" value="1319" />
+    <option name="width" value="1303" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -146,6 +167,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -163,7 +186,7 @@
     </ignored-problems>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -175,24 +198,74 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools-laws-through-time-analyzer" />
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools-laws-through-time-analyzer" />
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools-laws-through-time-analyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diff" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-laws-through-time-analyzer" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -249,17 +322,23 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="GitMarkdownAnalyzer" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -277,7 +356,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -358,7 +437,7 @@
       <option name="launchUrl" value="false" />
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
@@ -395,13 +474,14 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
@@ -462,6 +542,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <list size="1">
@@ -478,6 +559,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="55e03afd-c792-45bc-99cf-e91722c9e5de" name="Default" comment="" />
@@ -497,48 +581,62 @@
       <workItem from="1404115139448" duration="980000" />
       <workItem from="1404129467619" duration="67000" />
       <workItem from="1404308956539" duration="1317000" />
+      <workItem from="1411736930509" duration="740000" />
+      <workItem from="1411739485999" duration="1886000" />
+      <workItem from="1411808214056" duration="1818000" />
+      <workItem from="1411810451350" duration="2125000" />
+      <workItem from="1411812612356" duration="1661000" />
+      <workItem from="1411818431153" duration="1828000" />
+      <workItem from="1411820928330" duration="2043000" />
+      <workItem from="1411827482743" duration="2664000" />
+      <workItem from="1411830623617" duration="350000" />
+      <workItem from="1411831700518" duration="9000" />
+      <workItem from="1411832896973" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23168000" />
+    <option name="totallyTimeSpent" value="38602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="71" y="-8" width="1303" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55368096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20301348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36041358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2703583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47699386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -551,7 +649,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -560,277 +660,601 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Analyze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="4794">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4403">
+          <caret line="79" column="84" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="84" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/super-csv-2.2.0-sources.jar!/org/supercsv/cellprocessor/constraint/NotNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1377">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/super-csv-2.2.0-sources.jar!/org/supercsv/cellprocessor/CellProcessorAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2142">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/super-csv-2.2.0-sources.jar!/org/supercsv/cellprocessor/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1020">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="4" selection-start="9313" selection-end="9313" vertical-scroll-proportion="0.0" vertical-offset="4250" max-vertical-offset="9010">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9010">
+          <caret line="250" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Analyze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="12" selection-start="11759" selection-end="11759" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="4794">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="5032">
+          <caret line="149" column="37" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="4" selection-start="9313" selection-end="9313" vertical-scroll-proportion="0.0" vertical-offset="4250" max-vertical-offset="9010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="278" column="80" selection-start="11668" selection-end="11668" vertical-scroll-proportion="0.0" vertical-offset="4318" max-vertical-offset="4794">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="61" selection-start="15236" selection-end="15251" vertical-scroll-proportion="0.0" vertical-offset="6902" max-vertical-offset="16864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="1" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="5049">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="768" column="23" selection-start="28624" selection-end="28624" vertical-scroll-proportion="0.0" vertical-offset="13056" max-vertical-offset="16864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="31" selection-start="2893" selection-end="2893" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="3349">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="768" column="23" selection-start="28624" selection-end="28624" vertical-scroll-proportion="0.0" vertical-offset="12618" max-vertical-offset="16864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="72" selection-start="8812" selection-end="8812" vertical-scroll-proportion="0.0" vertical-offset="3272" max-vertical-offset="3774">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="40" selection-start="4186" selection-end="4186" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="2295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="40" selection-start="6612" selection-end="6612" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3791">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="876" column="10" selection-start="31850" selection-end="31850" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="24" selection-start="7385" selection-end="7385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="28" selection-start="3969" selection-end="3969" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="3213">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="39" selection-start="3187" selection-end="3206" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="2958">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="34" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2550">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="95" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1496">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="578">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/jgit/org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/PackBitmapIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="24" selection-start="6700" selection-end="6700" vertical-scroll-proportion="0.33333334" vertical-offset="1957" max-vertical-offset="2550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="4" selection-start="9313" selection-end="9313" vertical-scroll-proportion="0.0" vertical-offset="2749" max-vertical-offset="7871">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="37" selection-start="7129" selection-end="7129" vertical-scroll-proportion="0.0" vertical-offset="2137" max-vertical-offset="4794">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3410#3434#0" expanded="true" />
-            <element signature="e#9590#9628#0" expanded="true" />
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9010">
+          <caret line="250" column="4" selection-start-line="250" selection-start-column="4" selection-end-line="250" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="4794">
+          <caret line="39" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
+          <caret line="32" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4250" max-vertical-offset="9010">
+          <caret line="250" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="4794">
+          <caret line="279" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
+          <caret line="32" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4250" max-vertical-offset="9010">
+          <caret line="250" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4318" max-vertical-offset="4794">
+          <caret line="278" column="80" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6902" max-vertical-offset="16864">
+          <caret line="406" column="61" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="5049">
+          <caret line="37" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13056" max-vertical-offset="16864">
+          <caret line="768" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="3349">
+          <caret line="62" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="12618" max-vertical-offset="16864">
+          <caret line="768" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3272" max-vertical-offset="3774">
+          <caret line="203" column="72" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="2295">
+          <caret line="94" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3791">
+          <caret line="147" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18683">
+          <caret line="876" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
+          <caret line="175" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="561">
+          <caret line="25" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="3213">
+          <caret line="83" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="561">
+          <caret line="25" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="2958">
+          <caret line="68" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
+          <caret line="23" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="2550">
+          <caret line="43" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
+          <caret line="23" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1496">
+          <caret line="31" column="95" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
+          <caret line="23" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="578">
+          <caret line="21" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
+          <caret line="23" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/jgit/org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/file/PackBitmapIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1957" max-vertical-offset="2550">
+          <caret line="175" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitMarkdownAnalyzer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="714">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/super-csv-2.2.0-sources.jar!/org/supercsv/cellprocessor/constraint/NotNull.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="75" selection-start="610" selection-end="610" vertical-scroll-proportion="0.20101352" vertical-offset="0" max-vertical-offset="592">
+        <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="918">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/super-csv-2.2.0-sources.jar!/org/supercsv/cellprocessor/CellProcessorAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1683">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/super-csv-2.2.0-sources.jar!/org/supercsv/cellprocessor/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6232877" vertical-offset="2436" max-vertical-offset="20604">
+          <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jgit-3.4.1.201406201815-r.jar!/org/eclipse/jgit/revwalk/RevTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="340">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jgit-3.4.1.201406201815-r.jar!/org/eclipse/jgit/diff/DiffFormatter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2686">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/jgit/diff/CustomDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9940" max-vertical-offset="21488">
+          <caret line="607" column="0" selection-start-line="599" selection-start-column="0" selection-end-line="607" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDiffFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2839" max-vertical-offset="11458">
+          <caret line="167" column="23" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Analyze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2466667" vertical-offset="5389" max-vertical-offset="8126">
+          <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
+          <folding>
+            <element signature="e#18083#18084#0" expanded="true" />
+            <element signature="e#18119#18120#0" expanded="true" />
+            <element signature="e#18155#18156#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+            <element signature="e#18230#18231#0" expanded="true" />
+            <element signature="e#18269#18270#0" expanded="true" />
+            <element signature="e#18312#18313#0" expanded="true" />
+            <element signature="e#18354#18355#0" expanded="true" />
+            <element signature="e#18403#18404#0" expanded="true" />
+            <element signature="e#18451#18452#0" expanded="true" />
+            <element signature="e#18500#18501#0" expanded="true" />
+            <element signature="e#18548#18549#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

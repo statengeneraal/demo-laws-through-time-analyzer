@@ -46,6 +46,7 @@
 import org.eclipse.jgit.diff.*;
 import org.eclipse.jgit.diff.DiffAlgorithm.SupportedAlgorithm;
 import org.eclipse.jgit.diff.DiffEntry.ChangeType;
+import org.eclipse.jgit.dircache.DirCacheIterator;
 import org.eclipse.jgit.errors.AmbiguousObjectException;
 import org.eclipse.jgit.errors.LargeObjectException;
 import org.eclipse.jgit.errors.MissingObjectException;
@@ -53,14 +54,21 @@ import org.eclipse.jgit.internal.JGitText;
 import org.eclipse.jgit.lib.*;
 import org.eclipse.jgit.patch.FileHeader;
 import org.eclipse.jgit.patch.FileHeader.PatchType;
+import org.eclipse.jgit.revwalk.FollowFilter;
+import org.eclipse.jgit.revwalk.RevTree;
+import org.eclipse.jgit.revwalk.RevWalk;
 import org.eclipse.jgit.storage.pack.PackConfig;
-import org.eclipse.jgit.treewalk.filter.TreeFilter;
+import org.eclipse.jgit.treewalk.AbstractTreeIterator;
+import org.eclipse.jgit.treewalk.TreeWalk;
+import org.eclipse.jgit.treewalk.WorkingTreeIterator;
+import org.eclipse.jgit.treewalk.filter.*;
 import org.eclipse.jgit.util.QuotedString;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import static org.eclipse.jgit.diff.DiffEntry.ChangeType.*;
@@ -172,6 +180,142 @@ public class MyDiffFormatter {
                 SupportedAlgorithm.HISTOGRAM));
 
     }
+
+    /**
+     * Determine the differences between two trees.
+     * <p/>
+     * No output is created, instead only the file paths that are different are
+     * returned. Callers may choose to format these paths themselves, or convert
+     * them into {@link FileHeader} instances with a complete edit list by
+     * <p/>
+     * Either side may be null to indicate that the tree has beed added or
+     * removed. The diff will be computed against nothing.
+     *
+     * @param a the old (or previous) side or null
+     * @param b the new (or updated) side or null
+     * @return the paths that are different.
+     * @throws IOException trees cannot be read or file contents cannot be read.
+     */
+    public List<DiffEntry> scan(AnyObjectId a, AnyObjectId b)
+            throws IOException {
+        assertHaveRepository();
+
+        RevWalk rw = new RevWalk(reader);
+        RevTree aTree = a != null ? rw.parseTree(a) : null;
+        RevTree bTree = b != null ? rw.parseTree(b) : null;
+        return scan(aTree, bTree);
+    }
+
+        /**
+     * Determine the differences between two trees.
+     *
+     * No output is created, instead only the file paths that are different are
+     * returned. Callers may choose to format these paths themselves, or convert
+     * them into {@link FileHeader} instances with a complete edit list by
+     *
+     * @param a
+     *            the old (or previous) side.
+     * @param b
+     *            the new (or updated) side.
+     * @return the paths that are different.
+     * @throws IOException
+     *             trees cannot be read or file contents cannot be read.
+     */
+    public List<DiffEntry> scan(AbstractTreeIterator a, AbstractTreeIterator b)
+            throws IOException {
+        assertHaveRepository();
+
+        TreeWalk walk = new TreeWalk(reader);
+        walk.addTree(a);
+        walk.addTree(b);
+        walk.setRecursive(true);
+
+        TreeFilter filter = getDiffTreeFilterFor(a, b);
+        if (pathFilter instanceof FollowFilter) {
+            walk.setFilter(AndTreeFilter.create(
+                    PathFilter.create(((FollowFilter) pathFilter).getPath()),
+                    filter));
+        } else {
+            walk.setFilter(AndTreeFilter.create(pathFilter, filter));
+        }
+
+        source = new ContentSource.Pair(source(a), source(b));
+
+        List<DiffEntry> files = DiffEntry.scan(walk);
+        if (pathFilter instanceof FollowFilter && isAdd(files)) {
+            // The file we are following was added here, find where it
+            // came from so we can properly show the rename or copy,
+            // then continue digging backwards.
+            //
+            a.reset();
+            b.reset();
+            walk.reset();
+            walk.addTree(a);
+            walk.addTree(b);
+            walk.setFilter(filter);
+
+            if (renameDetector == null)
+                setDetectRenames(true);
+            files = updateFollowFilter(detectRenames(DiffEntry.scan(walk)));
+
+        } else if (renameDetector != null)
+            files = detectRenames(files);
+
+        return files;
+    }
+
+    private boolean isAdd(List<DiffEntry> files) {
+        String oldPath = ((FollowFilter) pathFilter).getPath();
+        for (DiffEntry ent : files) {
+            if (ent.getChangeType() == ADD && ent.getNewPath().equals(oldPath))
+                return true;
+        }
+        return false;
+    }
+
+    private List<DiffEntry> detectRenames(List<DiffEntry> files)
+            throws IOException {
+        renameDetector.reset();
+        renameDetector.addAll(files);
+        return renameDetector.compute(reader, progressMonitor);
+    }
+
+    private static boolean isRename(DiffEntry ent) {
+        return ent.getChangeType() == RENAME || ent.getChangeType() == COPY;
+    }
+
+        private List<DiffEntry> updateFollowFilter(List<DiffEntry> files) {
+        String oldPath = ((FollowFilter) pathFilter).getPath();
+        for (DiffEntry ent : files) {
+            if (isRename(ent) && ent.getNewPath().equals(oldPath)) {
+                pathFilter = FollowFilter.create(ent.getOldPath(), diffCfg);
+                return Collections.singletonList(ent);
+            }
+        }
+        return Collections.emptyList();
+    }
+
+    private ContentSource source(AbstractTreeIterator iterator) {
+        if (iterator instanceof WorkingTreeIterator)
+            return ContentSource.create((WorkingTreeIterator) iterator);
+        return ContentSource.create(reader);
+    }
+    private static TreeFilter getDiffTreeFilterFor(AbstractTreeIterator a,
+                                                   AbstractTreeIterator b) {
+        if (a instanceof DirCacheIterator && b instanceof WorkingTreeIterator)
+            return new IndexDiffFilter(0, 1);
+
+        if (a instanceof WorkingTreeIterator && b instanceof DirCacheIterator)
+            return new IndexDiffFilter(1, 0);
+
+        TreeFilter filter = TreeFilter.ANY_DIFF;
+        if (a instanceof WorkingTreeIterator)
+            filter = AndTreeFilter.create(new NotIgnoredFilter(0), filter);
+        if (b instanceof WorkingTreeIterator)
+            filter = AndTreeFilter.create(new NotIgnoredFilter(1), filter);
+        return filter;
+    }
+
 
     /**
      * Change the number of lines of context to display.
